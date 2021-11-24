@@ -31,3 +31,26 @@ body {
   left: 0px;
   opacity: 0.6;
 } */
+
+h1 {
+  font-family: "Indie Flower", cursive;
+  text-align: center;
+  font-size: 5rem;
+}
+
+p {
+  font-family: "Arima Madurai", cursive;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.door {
+  font-family: "Arima Madurai", cursive;
+  font-size: 2rem;
+  border: 3px white solid;
+  border-radius: 4px;
+}
+
+.door:hover {
+  /* add hover effect */
+}
