@@ -44,11 +44,21 @@ p {
   font-size: 3rem;
 }
 
+.container {
+  width: 90%;
+  display: grid;
+  margin: 3rem auto;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
+
 .door {
   font-family: "Arima Madurai", cursive;
-  font-size: 2rem;
+  font-size: 4rem;
+  text-align: center;
   border: 3px white solid;
   border-radius: 4px;
+  padding: 0.5em 0;
 }
 
 .door:hover {
